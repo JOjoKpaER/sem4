@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magic 8-ball</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+</body>
+<form class="inputform" name="search">
+    <div>
+        <textarea id="textBox" rows="5" cols="33" class="textarea" placeholder="Задайте вопрос"></textarea>
+    </div>
+    <div>
+        <input type="button" class="button-1" id="answer" value="Ответить" />
+        <input type="button" class="button-1" id="clear" value="Очистить" />
+    </div>
+</form>
+<div class="answerform" id="answerBlock">
+    <input type="button" class="button-2" id="dismiss" value="Очистить" />
+    <div id="pic"></div>
+</div>
+<script src="js/controller.js"></script>
+</html>
